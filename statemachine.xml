@@ -1,2 +1,7 @@
-<statemachine>
+<statemachine defaultstate="Idle">
+  <state name="Idle">
+    <attributeset>
+      <attr name="movement_x-axis">0</attr>
+    </attributeset>
+  </state>
 </statemachine>
